@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans serif;
+  font-weight: 400;
+  background: #F8F8F8;
+}
+
+nav header {
+  text-align: center;
+}
+
+nav .nav-container {
+  border: 1px solid black;
+  padding: 0;
+}
+
+nav .nav-container li {
+  list-style-type: none;
+  border-top: 1px solid black;
+  margin-left: 0;
+  padding: .8rem;
+}
+
+nav .nav-container li .nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+main .main-section {
+  margin: .5rem;
+}
+
+main .main-section h2, main .main-section h3 {
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+main .main-section h3 {
+  margin-top: 2rem;
+}
+
+main .main-section p {
+  font-weight: 300;
+}
+
+main .main-section li {
+  margin-top: .5rem;
+}
+
+main .main-section li li {
+  font-weight: 300;
+}
+
+main .main-section code {
+  display: inline-block;
+  padding: .6rem;
+  margin: .2rem;
+  background-color: #E4E4E4;
+}
+
+main .main-section table {
+  margin: auto;
+}
+
+main .main-section table, main .main-section th, main .main-section td {
+  border: 1.8px solid black;
+  border-collapse: collapse;
+  padding: .5rem;
+}
+
+main .main-section table code, main .main-section th code, main .main-section td code {
+  padding: .2rem;
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: .4fr 1fr;
+        grid-template-columns: .4fr 1fr;
+    margin: 0;
+  }
+  #navbar {
+    border-right: 1px solid black;
+  }
+  #navbar .nav-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4.5rem;
+  }
+  #navbar header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
